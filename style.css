@@ -29,3 +29,12 @@ button {
 p {
     font-weight: bold;
 }
+
+/* Estilos para impresión */
+@media print {
+    /* Ocultar botones al imprimir */
+    button {
+        display: none;
+    }
+}
+
